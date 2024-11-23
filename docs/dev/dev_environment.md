@@ -17,11 +17,6 @@ cd bbot
 # install poetry
 curl -sSL https://install.python-poetry.org | python3 -
 
-# install pip dependencies
-poetry install
-# install pre-commit hooks, etc.
-poetry run pre-commit install
-
 # enter virtual environment
 poetry shell
 
